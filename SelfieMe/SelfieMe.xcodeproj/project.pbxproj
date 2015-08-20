@@ -1,0 +1,519 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0578205A1B6885F50036AAF7 /* LeftMenuVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 057820591B6885F50036AAF7 /* LeftMenuVC.swift */; };
+		0578205C1B68861D0036AAF7 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0578205B1B68861D0036AAF7 /* HomeVC.swift */; };
+		057820601B688F130036AAF7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0578205E1B688F130036AAF7 /* LaunchScreen.storyboard */; };
+		057820631B6895C00036AAF7 /* AccountVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 057820621B6895C00036AAF7 /* AccountVC.swift */; };
+		057820651B6895CB0036AAF7 /* InboxVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 057820641B6895CB0036AAF7 /* InboxVC.swift */; };
+		057820671B6895D80036AAF7 /* SelfieMeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 057820661B6895D80036AAF7 /* SelfieMeVC.swift */; };
+		057820691B6895E60036AAF7 /* InviteFriendVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 057820681B6895E60036AAF7 /* InviteFriendVC.swift */; };
+		0578206B1B6895F40036AAF7 /* MyCollectionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0578206A1B6895F40036AAF7 /* MyCollectionVC.swift */; };
+		0578206D1B6898750036AAF7 /* FunctionalView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0578206C1B6898750036AAF7 /* FunctionalView.storyboard */; };
+		057820701B6898D10036AAF7 /* CollectionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0578206F1B6898D10036AAF7 /* CollectionVC.swift */; };
+		057820721B6898E40036AAF7 /* MoreInfoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 057820711B6898E40036AAF7 /* MoreInfoVC.swift */; };
+		057820751B68B98B0036AAF7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 057820741B68B98B0036AAF7 /* ViewController.swift */; };
+		0578207E1B69CEBC0036AAF7 /* SelfiemeCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0578207D1B69CEBC0036AAF7 /* SelfiemeCell.xib */; };
+		0584766E1B79AB47008ACEBA /* PreviewLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0584766D1B79AB47008ACEBA /* PreviewLayer.swift */; };
+		059BCA6A1B784CCF00FF05F3 /* CaptureImageVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 059BCA691B784CCF00FF05F3 /* CaptureImageVC.swift */; };
+		05AE8FD01B70A34F00175C5A /* FriendInfoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05AE8FCF1B70A34F00175C5A /* FriendInfoVC.swift */; };
+		05AE8FD21B70AA2E00175C5A /* FriendDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05AE8FD11B70AA2E00175C5A /* FriendDetailVC.swift */; };
+		05AE8FD41B70AA4A00175C5A /* FriendCollectionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05AE8FD31B70AA4A00175C5A /* FriendCollectionVC.swift */; };
+		05C419861B69D37300B5772B /* SelfiemeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05C419851B69D37300B5772B /* SelfiemeCell.swift */; };
+		05C419881B6A04B400B5772B /* ResultFriendVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05C419871B6A04B400B5772B /* ResultFriendVC.swift */; };
+		05C4198B1B6A04EC00B5772B /* Friend.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05C4198A1B6A04EC00B5772B /* Friend.swift */; };
+		05C4198D1B6A071900B5772B /* DataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05C4198C1B6A071900B5772B /* DataController.swift */; };
+		05C4198F1B6B1B3F00B5772B /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05C4198E1B6B1B3F00B5772B /* String.swift */; };
+		05D3512B1B71F1C6001CBDD4 /* ImageCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05D3512A1B71F1C6001CBDD4 /* ImageCollectionCell.swift */; };
+		05D3512D1B71F1E3001CBDD4 /* ImageCollectionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 05D3512C1B71F1E3001CBDD4 /* ImageCollectionCell.xib */; };
+		05D3512F1B71F511001CBDD4 /* BaseNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05D3512E1B71F511001CBDD4 /* BaseNavigationController.swift */; };
+		05D4DE4A1B672E0B00DBD245 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05D4DE491B672E0B00DBD245 /* AppDelegate.swift */; };
+		05D4DE4C1B672E0B00DBD245 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05D4DE4B1B672E0B00DBD245 /* LoginVC.swift */; };
+		05D4DE4F1B672E0B00DBD245 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 05D4DE4D1B672E0B00DBD245 /* Main.storyboard */; };
+		05D4DE511B672E0B00DBD245 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 05D4DE501B672E0B00DBD245 /* Assets.xcassets */; };
+		05D4DE5C1B6731B400DBD245 /* FirstLoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05D4DE5B1B6731B400DBD245 /* FirstLoginVC.swift */; };
+		05D4DE621B6737F200DBD245 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 05D4DE611B6737F200DBD245 /* SWRevealViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		057820591B6885F50036AAF7 /* LeftMenuVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LeftMenuVC.swift; sourceTree = "<group>"; };
+		0578205B1B68861D0036AAF7 /* HomeVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
+		0578205F1B688F130036AAF7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = SelfieMe/Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		057820621B6895C00036AAF7 /* AccountVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccountVC.swift; sourceTree = "<group>"; };
+		057820641B6895CB0036AAF7 /* InboxVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InboxVC.swift; sourceTree = "<group>"; };
+		057820661B6895D80036AAF7 /* SelfieMeVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelfieMeVC.swift; sourceTree = "<group>"; };
+		057820681B6895E60036AAF7 /* InviteFriendVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InviteFriendVC.swift; sourceTree = "<group>"; };
+		0578206A1B6895F40036AAF7 /* MyCollectionVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyCollectionVC.swift; sourceTree = "<group>"; };
+		0578206C1B6898750036AAF7 /* FunctionalView.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = FunctionalView.storyboard; sourceTree = "<group>"; };
+		0578206F1B6898D10036AAF7 /* CollectionVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionVC.swift; sourceTree = "<group>"; };
+		057820711B6898E40036AAF7 /* MoreInfoVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoreInfoVC.swift; sourceTree = "<group>"; };
+		057820741B68B98B0036AAF7 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0578207D1B69CEBC0036AAF7 /* SelfiemeCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = SelfiemeCell.xib; path = ../SelfiemeCell.xib; sourceTree = "<group>"; };
+		0584766D1B79AB47008ACEBA /* PreviewLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PreviewLayer.swift; sourceTree = "<group>"; };
+		059BCA691B784CCF00FF05F3 /* CaptureImageVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CaptureImageVC.swift; sourceTree = "<group>"; };
+		05AE8FCF1B70A34F00175C5A /* FriendInfoVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FriendInfoVC.swift; sourceTree = "<group>"; };
+		05AE8FD11B70AA2E00175C5A /* FriendDetailVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FriendDetailVC.swift; sourceTree = "<group>"; };
+		05AE8FD31B70AA4A00175C5A /* FriendCollectionVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FriendCollectionVC.swift; sourceTree = "<group>"; };
+		05C419851B69D37300B5772B /* SelfiemeCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SelfiemeCell.swift; path = ../SelfiemeCell.swift; sourceTree = "<group>"; };
+		05C419871B6A04B400B5772B /* ResultFriendVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultFriendVC.swift; sourceTree = "<group>"; };
+		05C4198A1B6A04EC00B5772B /* Friend.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Friend.swift; sourceTree = "<group>"; };
+		05C4198C1B6A071900B5772B /* DataController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataController.swift; sourceTree = "<group>"; };
+		05C4198E1B6B1B3F00B5772B /* String.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
+		05D3512A1B71F1C6001CBDD4 /* ImageCollectionCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ImageCollectionCell.swift; path = ../ImageCollectionCell.swift; sourceTree = "<group>"; };
+		05D3512C1B71F1E3001CBDD4 /* ImageCollectionCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ImageCollectionCell.xib; sourceTree = "<group>"; };
+		05D3512E1B71F511001CBDD4 /* BaseNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseNavigationController.swift; sourceTree = "<group>"; };
+		05D4DE461B672E0B00DBD245 /* SelfieMe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SelfieMe.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		05D4DE491B672E0B00DBD245 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		05D4DE4B1B672E0B00DBD245 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		05D4DE4E1B672E0B00DBD245 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		05D4DE501B672E0B00DBD245 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		05D4DE551B672E0B00DBD245 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		05D4DE5B1B6731B400DBD245 /* FirstLoginVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirstLoginVC.swift; sourceTree = "<group>"; };
+		05D4DE601B6737F200DBD245 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
+		05D4DE611B6737F200DBD245 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
+		05D4DE631B67381A00DBD245 /* SelfieMe-Briding-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SelfieMe-Briding-Header.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		05D4DE431B672E0B00DBD245 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		057820581B6885E20036AAF7 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				057820591B6885F50036AAF7 /* LeftMenuVC.swift */,
+				0578205B1B68861D0036AAF7 /* HomeVC.swift */,
+			);
+			name = Main;
+			path = MainView;
+			sourceTree = "<group>";
+		};
+		0578205D1B688A450036AAF7 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				05D4DE4B1B672E0B00DBD245 /* LoginVC.swift */,
+				05D4DE5B1B6731B400DBD245 /* FirstLoginVC.swift */,
+			);
+			name = Login;
+			sourceTree = "<group>";
+		};
+		057820611B6895A90036AAF7 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				059BCA681B784CB500FF05F3 /* CaptureImage */,
+				05C419891B6A04D700B5772B /* Model */,
+				057820581B6885E20036AAF7 /* Main */,
+				0578205D1B688A450036AAF7 /* Login */,
+				0578206E1B6898B60036AAF7 /* Account */,
+				057820771B68C26C0036AAF7 /* MyCollection */,
+				057820781B68C2740036AAF7 /* SelfieMe */,
+				057820791B68C27E0036AAF7 /* Inbox */,
+				0578207A1B68C2860036AAF7 /* InviteFriend */,
+			);
+			name = ViewController;
+			sourceTree = "<group>";
+		};
+		0578206E1B6898B60036AAF7 /* Account */ = {
+			isa = PBXGroup;
+			children = (
+				057820621B6895C00036AAF7 /* AccountVC.swift */,
+				0578206F1B6898D10036AAF7 /* CollectionVC.swift */,
+				057820711B6898E40036AAF7 /* MoreInfoVC.swift */,
+			);
+			name = Account;
+			sourceTree = "<group>";
+		};
+		057820731B68B96D0036AAF7 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				057820741B68B98B0036AAF7 /* ViewController.swift */,
+				05C4198E1B6B1B3F00B5772B /* String.swift */,
+				05D3512E1B71F511001CBDD4 /* BaseNavigationController.swift */,
+			);
+			name = Helpers;
+			sourceTree = "<group>";
+		};
+		057820771B68C26C0036AAF7 /* MyCollection */ = {
+			isa = PBXGroup;
+			children = (
+				0578206A1B6895F40036AAF7 /* MyCollectionVC.swift */,
+			);
+			name = MyCollection;
+			sourceTree = "<group>";
+		};
+		057820781B68C2740036AAF7 /* SelfieMe */ = {
+			isa = PBXGroup;
+			children = (
+				057820661B6895D80036AAF7 /* SelfieMeVC.swift */,
+			);
+			name = SelfieMe;
+			sourceTree = "<group>";
+		};
+		057820791B68C27E0036AAF7 /* Inbox */ = {
+			isa = PBXGroup;
+			children = (
+				057820641B6895CB0036AAF7 /* InboxVC.swift */,
+			);
+			name = Inbox;
+			sourceTree = "<group>";
+		};
+		0578207A1B68C2860036AAF7 /* InviteFriend */ = {
+			isa = PBXGroup;
+			children = (
+				057820681B6895E60036AAF7 /* InviteFriendVC.swift */,
+				05C419871B6A04B400B5772B /* ResultFriendVC.swift */,
+				05AE8FD11B70AA2E00175C5A /* FriendDetailVC.swift */,
+				05AE8FD31B70AA4A00175C5A /* FriendCollectionVC.swift */,
+				05AE8FCF1B70A34F00175C5A /* FriendInfoVC.swift */,
+			);
+			name = InviteFriend;
+			sourceTree = "<group>";
+		};
+		059BCA681B784CB500FF05F3 /* CaptureImage */ = {
+			isa = PBXGroup;
+			children = (
+				059BCA691B784CCF00FF05F3 /* CaptureImageVC.swift */,
+				0584766D1B79AB47008ACEBA /* PreviewLayer.swift */,
+			);
+			name = CaptureImage;
+			sourceTree = "<group>";
+		};
+		05C419891B6A04D700B5772B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				05C4198A1B6A04EC00B5772B /* Friend.swift */,
+				05C4198C1B6A071900B5772B /* DataController.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		05D4DE3D1B672E0B00DBD245 = {
+			isa = PBXGroup;
+			children = (
+				05D4DE481B672E0B00DBD245 /* SelfieMe */,
+				05D4DE471B672E0B00DBD245 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		05D4DE471B672E0B00DBD245 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				05D4DE461B672E0B00DBD245 /* SelfieMe.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		05D4DE481B672E0B00DBD245 /* SelfieMe */ = {
+			isa = PBXGroup;
+			children = (
+				05D4DE5E1B6737F200DBD245 /* Libraries */,
+				057820731B68B96D0036AAF7 /* Helpers */,
+				057820611B6895A90036AAF7 /* ViewController */,
+				05D4DE491B672E0B00DBD245 /* AppDelegate.swift */,
+				05D3512A1B71F1C6001CBDD4 /* ImageCollectionCell.swift */,
+				05D3512C1B71F1E3001CBDD4 /* ImageCollectionCell.xib */,
+				05C419851B69D37300B5772B /* SelfiemeCell.swift */,
+				0578207D1B69CEBC0036AAF7 /* SelfiemeCell.xib */,
+				05D4DE4D1B672E0B00DBD245 /* Main.storyboard */,
+				0578206C1B6898750036AAF7 /* FunctionalView.storyboard */,
+				0578205E1B688F130036AAF7 /* LaunchScreen.storyboard */,
+				05D4DE501B672E0B00DBD245 /* Assets.xcassets */,
+				05D4DE551B672E0B00DBD245 /* Info.plist */,
+				05D4DE631B67381A00DBD245 /* SelfieMe-Briding-Header.h */,
+			);
+			path = SelfieMe;
+			sourceTree = "<group>";
+		};
+		05D4DE5E1B6737F200DBD245 /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				05D4DE5F1B6737F200DBD245 /* SWRevealViewController */,
+			);
+			path = Libraries;
+			sourceTree = "<group>";
+		};
+		05D4DE5F1B6737F200DBD245 /* SWRevealViewController */ = {
+			isa = PBXGroup;
+			children = (
+				05D4DE601B6737F200DBD245 /* SWRevealViewController.h */,
+				05D4DE611B6737F200DBD245 /* SWRevealViewController.m */,
+			);
+			path = SWRevealViewController;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		05D4DE451B672E0B00DBD245 /* SelfieMe */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 05D4DE581B672E0B00DBD245 /* Build configuration list for PBXNativeTarget "SelfieMe" */;
+			buildPhases = (
+				05D4DE421B672E0B00DBD245 /* Sources */,
+				05D4DE431B672E0B00DBD245 /* Frameworks */,
+				05D4DE441B672E0B00DBD245 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SelfieMe;
+			productName = SelfieMe;
+			productReference = 05D4DE461B672E0B00DBD245 /* SelfieMe.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		05D4DE3E1B672E0B00DBD245 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Thuong Vu";
+				TargetAttributes = {
+					05D4DE451B672E0B00DBD245 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+				};
+			};
+			buildConfigurationList = 05D4DE411B672E0B00DBD245 /* Build configuration list for PBXProject "SelfieMe" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 05D4DE3D1B672E0B00DBD245;
+			productRefGroup = 05D4DE471B672E0B00DBD245 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				05D4DE451B672E0B00DBD245 /* SelfieMe */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		05D4DE441B672E0B00DBD245 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				057820601B688F130036AAF7 /* LaunchScreen.storyboard in Resources */,
+				05D4DE511B672E0B00DBD245 /* Assets.xcassets in Resources */,
+				0578206D1B6898750036AAF7 /* FunctionalView.storyboard in Resources */,
+				05D3512D1B71F1E3001CBDD4 /* ImageCollectionCell.xib in Resources */,
+				05D4DE4F1B672E0B00DBD245 /* Main.storyboard in Resources */,
+				0578207E1B69CEBC0036AAF7 /* SelfiemeCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		05D4DE421B672E0B00DBD245 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				059BCA6A1B784CCF00FF05F3 /* CaptureImageVC.swift in Sources */,
+				05C4198F1B6B1B3F00B5772B /* String.swift in Sources */,
+				05D4DE4C1B672E0B00DBD245 /* LoginVC.swift in Sources */,
+				057820691B6895E60036AAF7 /* InviteFriendVC.swift in Sources */,
+				05D3512B1B71F1C6001CBDD4 /* ImageCollectionCell.swift in Sources */,
+				057820651B6895CB0036AAF7 /* InboxVC.swift in Sources */,
+				057820721B6898E40036AAF7 /* MoreInfoVC.swift in Sources */,
+				057820751B68B98B0036AAF7 /* ViewController.swift in Sources */,
+				05AE8FD41B70AA4A00175C5A /* FriendCollectionVC.swift in Sources */,
+				05D3512F1B71F511001CBDD4 /* BaseNavigationController.swift in Sources */,
+				05C4198B1B6A04EC00B5772B /* Friend.swift in Sources */,
+				0578205A1B6885F50036AAF7 /* LeftMenuVC.swift in Sources */,
+				05D4DE4A1B672E0B00DBD245 /* AppDelegate.swift in Sources */,
+				057820631B6895C00036AAF7 /* AccountVC.swift in Sources */,
+				05C419861B69D37300B5772B /* SelfiemeCell.swift in Sources */,
+				0578206B1B6895F40036AAF7 /* MyCollectionVC.swift in Sources */,
+				0578205C1B68861D0036AAF7 /* HomeVC.swift in Sources */,
+				05D4DE5C1B6731B400DBD245 /* FirstLoginVC.swift in Sources */,
+				05C4198D1B6A071900B5772B /* DataController.swift in Sources */,
+				05D4DE621B6737F200DBD245 /* SWRevealViewController.m in Sources */,
+				057820701B6898D10036AAF7 /* CollectionVC.swift in Sources */,
+				057820671B6895D80036AAF7 /* SelfieMeVC.swift in Sources */,
+				05AE8FD21B70AA2E00175C5A /* FriendDetailVC.swift in Sources */,
+				05C419881B6A04B400B5772B /* ResultFriendVC.swift in Sources */,
+				0584766E1B79AB47008ACEBA /* PreviewLayer.swift in Sources */,
+				05AE8FD01B70A34F00175C5A /* FriendInfoVC.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0578205E1B688F130036AAF7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0578205F1B688F130036AAF7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		05D4DE4D1B672E0B00DBD245 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				05D4DE4E1B672E0B00DBD245 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		05D4DE561B672E0B00DBD245 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		05D4DE571B672E0B00DBD245 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		05D4DE591B672E0B00DBD245 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = SelfieMe/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ibm.cio.be.nat.ios.catalyst.v2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "e2acfda2-df9e-4475-83f8-ed04477a5680";
+				SWIFT_OBJC_BRIDGING_HEADER = "SelfieMe/SelfieMe-Briding-Header.h";
+			};
+			name = Debug;
+		};
+		05D4DE5A1B672E0B00DBD245 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = SelfieMe/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ibm.cio.be.nat.ios.catalyst.v2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "e2acfda2-df9e-4475-83f8-ed04477a5680";
+				SWIFT_OBJC_BRIDGING_HEADER = "SelfieMe/SelfieMe-Briding-Header.h";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		05D4DE411B672E0B00DBD245 /* Build configuration list for PBXProject "SelfieMe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05D4DE561B672E0B00DBD245 /* Debug */,
+				05D4DE571B672E0B00DBD245 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		05D4DE581B672E0B00DBD245 /* Build configuration list for PBXNativeTarget "SelfieMe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05D4DE591B672E0B00DBD245 /* Debug */,
+				05D4DE5A1B672E0B00DBD245 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 05D4DE3E1B672E0B00DBD245 /* Project object */;
+}
